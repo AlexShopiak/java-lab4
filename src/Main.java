@@ -1,6 +1,5 @@
 import util.Group;
 import util.Student;
-import util.Printer;
 
 import java.util.Arrays;
 public class Main {
@@ -14,9 +13,9 @@ public class Main {
         myGroup.add(new Student(1021, "Bvabey", "Axel",     2, 74));
         
         myGroup.sortByIdAscending();
-        Printer.printStudentsTable("Ascending by id", myGroup.getStudents());
+        myGroup.printTable("Ascending by id");
 
         myGroup.sortByNameDescending();
-        Printer.printStudentsTable("Descending by name", myGroup.getStudents());
+        myGroup.printTable("Descending by name");
     }
 }
