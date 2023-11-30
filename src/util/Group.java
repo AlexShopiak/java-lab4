@@ -36,7 +36,7 @@ public class Group {
         }
     }
 
-    public ArrayList<Student> getStudents() {
-        return students;
+    public void printTable(String title) {
+        Printer.printStudentsTable(title, students);
     }
 }
