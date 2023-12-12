@@ -5,7 +5,7 @@
 - Завдання: Визначити клас студент, який складається як мінімум з 5-и полів.
 
 ### Як зібрати та запустити проєкт
-- Зберіть проєкт <code>javac src/Main.java src/util/*.java</code>
-- Запустіть проєкт <code>java -cp src Main</code>
+- Зберіть проєкт <code>javac -d classes src/Main.java src/uni/*.java</code>
+- Запустіть проєкт <code>java -cp classes Main</code>
 
 ### Примітки

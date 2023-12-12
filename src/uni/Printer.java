@@ -1,10 +1,20 @@
-package util;
+/*
+ * Printer
+ *
+ * Version 1.0
+ *
+ * (c) 2023 Oleksii Shopiak
+ * All rights reserved.
+ *
+ * Printer class allows us to print group list as a table
+ */
+package uni;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
-public class Printer {
-    public static void printStudentsTable(String title, ArrayList<Student> students) {
+class Printer {
+    static void printStudentsTable(String title, ArrayList<Student> students) {
         System.out.println();
         printTitle(title);
 

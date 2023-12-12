@@ -1,11 +1,21 @@
-package util;
+/*
+ * Student
+ *
+ * Version 1.0
+ *
+ * (c) 2023 Oleksii Shopiak
+ * All rights reserved.
+ *
+ * Student class describes student object with id, name, surname, course and GPA
+ */
+package uni;
 
 public class Student {
-    private int id;
+    private int    id;
     private String name;
     private String surname;
-    private int course;
-    private int gpa;
+    private int    course;
+    private int    gpa;
 
     public Student(int id, String name, String surname, int course, int gpa) {
         this.id = id;
